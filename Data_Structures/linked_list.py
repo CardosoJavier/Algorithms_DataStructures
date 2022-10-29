@@ -77,7 +77,7 @@ class Linked_list:
     
 
     """ Init liked list from list. Must be an empty list """
-    def linkedList_from_list(self, myList):
+    def linkedList_from_list(self, myList:list):
 
         # make sure linked list is empty
         if self.head is not None:
@@ -87,9 +87,11 @@ class Linked_list:
         else:
 
             addNode = self.head
+            addNode
 
-            for val in myList:
-                newNode = Node(val)
+            for value in myList:
+                newNode = Node(value)
+                addNode.val
 
 
 
